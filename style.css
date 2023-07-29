@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    color: white;
+
+}
+
+.top-header, .sec, .faq-bottom{
+    border-bottom: 10px solid #232323;
+}
+/*navbar*/
+.logo{
+    height: 40px;
+    width: 150px;
+}
+.top-header{
+    background-image: url("hero_image.jpg");
+    height: 93vh;
+}
+.container{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.lang{
+    border: 0.2px solid grey;
+    border-right: none;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2.6px;
+}
+.picker{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+    padding: 5px 15px 5px 5px;
+}
+.select-language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 190px;
+}
+
+.right-half{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sign-in{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(229, 9, 20);
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.sign-in:hover{
+    background-color: rgba(229, 9, 20, 0.7);
+}
+
+/*hero-section*/
+
+.hero-section{
+    margin: 25vh auto;
+    width: 80%;
+    text-align: center;
+}
+
+.hero-section h1{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: normal;    
+}
+
+.bigp{
+    margin-top: 16px;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+
+.smallp{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+
+.start{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+.mail{
+    width: 30%;
+    cursor: text;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    padding: 16px 16px 16px 24px;
+    background-color: rgba(22, 22, 22, 0.7);
+    border: 0.8px solid rgba(128, 128, 128, 0.7);
+    border-radius: 4px;
+    color: white;
+}
+
+.start-btn{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.start-btn > span{
+    font-size: 30px !important;
+}
+.start-btn:hover{
+    background-color: rgba(229, 9, 20, 0.85);
+}
+
+/*section*/
+
+.sec{
+    display: flex;
+    align-items: center;
+    padding: 60px 140px;
+}
+.left-part h2, .right-part h2{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.left-part p, .right-part p{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.right-part{
+    position: relative;
+}
+.right-part > video{
+    position: absolute;
+    left: 80px;
+    top: 20%;
+    z-index: -1;
+}
+
+/*faq-section*/
+
+.faq-box{
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq-box > h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 25px;
+
+}
+
+.faq{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    width: 85%;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: #2D2D2D;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.faq:hover{
+    background-color: #808080b3;
+}
+.faq > span{
+    font-size: 45px !important;
+    font-weight: 500 !important;
+}
+
+.faq-bottom{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+/*footer*/
+footer{
+    
+    color: #A8B3B3;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+.foot-text{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-bottom: 80px;
+}
+.foot{
+    text-align: left;
+    text-decoration: underline;
+}
+.foot > p, .foot2 p{
+    margin-top: 15px;
+    cursor: pointer;
+}
+footer > p{
+    padding: 50px 0px 20px 200px;
+}
+.foot2 .select-language{
+    padding-right: 100px;
+}
+
+
+
+
+/*            PAGE2               */
+
+.nav img{
+    padding: 20px 0px 0px 40px; 
+    width: 180px;
+}
+
+
+
+
+
+.container2{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+}
+.head{
+    background-image: url("hero_image.jpg");
+    width: 100%;
+    height: 1100px;
+}
+
+.details{
+    border-radius: 5px;
+    height: 87vh;
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.details > h1{
+    font-size: 32px; 
+    font-weight: 700;
+}
+
+.user{
+    padding: 60px 70px 20px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user > p{
+    color: #737373;
+}
+
+.help{
+    display: flex;
+    justify-content: flex-start;
+}
+.help > p{
+    color: #B3B3B3;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mail2{
+    width: 275px;
+    background-color: #333333;
+    border: none;
+}
+
+.new-sign{
+    padding: 15px 0px;
+    font-weight: 700;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+    width: 70%;
+    margin: auto;
+}
+.bottom p{
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+
+
+.foot-sign{
+    color: #737373;
+    margin-top: 100px;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.foot-sign > p{
+    margin: 0px 0px 20px 340px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+/*responsive*/
+
+@media screen and (max-width: 600px) {
+    .hero-section h1, .faq-box h1{
+        font-size: 30px;
+    }
+    .logo{
+        width: 100px;
+        margin-left: 20px;
+    }
+    .navbar{
+        padding: 15px 0px;
+    }
+    .picker{
+        display: none;
+    }
+    .lang{
+        border:0.2px solid grey;
+        border-radius: 5px;
+    }
+    .sign-in{
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    .smallp{
+        font-size: 15px;
+    }
+    .bigp{
+        font-size: 19px;
+    }
+    .hero-section{
+        margin: 20vh auto;
+    }
+    .sec{
+        flex-direction: column;
+    }
+    .sec img{
+        width: 300px;
+    }
+    .sec video{
+        width: 200px;
+        left: 50px;
+    }
+    .sec h2{
+        font-size: 30px;
+    }
+    .sec p{
+        font-size: 15px;
+    }
+    .left-part, .right-part{
+        width: 300px;
+    }
+    .faq{
+        width: 225px;
+    }
+    .faq p{
+        font-size: 20px;
+    }
+    .faq span{
+        font-size: 30px !important;
+    }
+    .faq-bottom p{
+        margin: 0px 20px;
+    }
+    .foot-text{
+        flex-direction: column;
+    }
+    .foot, .foot2{
+        margin-left: 20px;
+    }
+    footer > p{
+        padding: 50px 0px 20px 20px;
+    }
+    .foot2 .picker{
+        display:unset;
+    }
+    .foot2 .select-language{
+        padding-right: 180px;
+    }
+
+    /*page2*/
+
+    .container2{
+        background-color: black;
+    }
+    .nav img{
+        width: 80px;
+        padding-left: 20px;
+    }
+    .details{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .user{
+        padding: 60px 5px 0px 20px;
+        width: 330px;
+    }
+    .foot-sign{
+        width: 99%;
+        height: 10vh;
+        margin-top: 0px;
+        border-top: 0.5px solid grey;
+    }
+    .bottom{
+        width: 90%;
+    }
+    .foot-sign > p{
+        margin: 0px 0px 20px 30px;
+        padding-bottom: 60px;
+    }
+    
+
+}
